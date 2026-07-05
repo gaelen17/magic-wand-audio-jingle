@@ -1,0 +1,29 @@
+/**
+ * Projet : Micro-interaction audio pour "The Disciplined Artist"
+ * Design du bouton de test de la baguette magique
+ */
+
+body {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.wand-btn {
+  background: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.wand-btn:hover {
+  transform: scale(1.05);
+}
